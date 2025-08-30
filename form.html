@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head>
+<style>
+    body {background-color: pink;}
+    h1 {color: azure;}
+    h2 {color: deeppink;}
+    p {color: lightcyan;}
+    fieldset {color: black;}
+    textarea {background-color: lightblue;}
+    button {background-color: deeppink;}
+
+</style>
+
+<html lang="en">
+
+<meta charset="UTF-8">
+
+<title>What are your thoughts</title>
+
+</head>
+
+
+
+<body>
+
+<!--Your HTML tags will start here-->
+
+ <h1>Take a moment to answer a few questions</h1>
+
+<!--navigation bar-->
+  &nbsp;<a href="index.html">Home</a> &nbsp;
+ &nbsp; <a href="table.html">Table</a> &nbsp;
+ &nbsp;<a href="form.html">Form</a> &nbsp;
+ &nbsp; <a href="https://www.google.com/" target="_blank">Google</a>
+
+<!--FORM-->
+<h2>Your Information</h2>
+
+<form>
+<!--First & Last name-->
+<p>
+    <label for="name">First Name:</label><br>
+    <input type="text" id="name" name="name" required>
+</p>
+
+<p>
+    <label for="name">Last Name:</label><br>
+    <input type="text" id="name" name="name" required>
+</p>
+<!--Select program-->
+<p>
+    <label for="Select your favorite Plant">Select your favorite Plant:</label><br>
+    <select id="Select your favorite Plant" name="Select your favorite Plant">
+     <option value="">Select</option>
+     <option>Earth</option>
+     <option>Saturn</option>
+     <option>Mercury</option>
+    </select>        
+</p>
+<!--Radio of years-->
+<fieldset>
+    <legend>How many light-years would you travel</legend>
+    <input type="radio" name="years" value="0-2" id="zero to two">
+   <label for="0-2">0-2 light-years</label><br>
+   <input type="radio" name="years" value="3-5" id="three to five">
+   <label for="3-5">3-5 light-years</label><br>
+   <input type="radio" name="years" value="6-10" id="six to ten">
+   <label for="6-10">6-10 light-years</label><br>
+   <input type="radio" name="years" value="3-5" id="three to five">
+   <label for="10+">10+ light-years</label>
+</fieldset>
+<!--Comments-->
+<p>
+   <textarea id="Comment" name="Comment" placeholder="Tell us an amazing fact you know about space!" rows="14" cols="40"></textarea>
+</p>
+<!--Submit & Reset-->
+<p>
+    <button type="submit">submit</button>
+    <button type="reset">reset</button>
+</p>
+
+</form>
+
+<!--Your HTML tags will end here-->
+
+</body>
+
+</html>
